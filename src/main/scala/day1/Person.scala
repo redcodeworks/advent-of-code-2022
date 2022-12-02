@@ -1,5 +1,4 @@
-package works.redcode.day1
+package works.redcode
+package day1
 
-trait Person {
-
-}
+trait Person

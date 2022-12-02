@@ -36,8 +36,12 @@ project/plugins/project/
 .history
 .cache
 .lib/
+.idea/
 
 ### Scala template
 *.class
 *.log
+*.sc
+
+secrets.conf
 

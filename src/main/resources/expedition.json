@@ -1,0 +1,24 @@
+{
+  "elves": [
+    {
+      "name": "jerry",
+      "snacks": [1000, 2000, 3000]
+    },
+    {
+      "name": "george",
+      "snacks": [4000]
+    },
+    {
+      "name": "elaine",
+      "snacks": [5000, 6000]
+    },
+    {
+      "name": "kramer",
+      "snacks": [7000, 8000, 9000]
+    },
+    {
+      "name": "newman",
+      "snacks": [10000]
+    }
+  ]
+}
