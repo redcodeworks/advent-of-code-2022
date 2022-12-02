@@ -1,3 +1,4 @@
+
 ### Java template
 # Compiled class file
 *.class
@@ -39,8 +40,6 @@ project/plugins/project/
 .idea/
 
 ### Scala template
-*.class
-*.log
 *.sc
 
 secrets.conf
