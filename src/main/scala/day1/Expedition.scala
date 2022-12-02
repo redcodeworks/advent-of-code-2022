@@ -15,17 +15,15 @@ object Expedition {
         from repeat runs
   */
 
-//  private def genSeqId(n: Int): LazyList[Int] =
-//    n #:: genSeqId(
-//      n + util.Random.between(1, applicationConf.getInt("sequence.randomRange"))
-//    )
-//
-//  private val seqIds = genSeqId(applicationConf.getInt("sequence.start"))
-//
-  private var idIndex: Int = 0
-//  def nextId: Int = { idIndex += 1; seqIds(idIndex) }
+  private def genSeqId(n: Int): LazyList[Int] =
+    n #:: genSeqId(
+      n + rng42.between(1, applicationConf.getInt("sequence.randomRange"))
+    )
 
-  def nextId: Int = { idIndex += 1; idIndex }
+  private val seqIds = genSeqId(applicationConf.getInt("sequence.start"))
+  private val rng42 = util.Random(42)
+  private var idIndex: Int = 0
+  private def nextId: Int = { idIndex += 1; seqIds(idIndex) }
 
   lazy val elves: List[Elf] =
     @tailrec
@@ -40,7 +38,6 @@ object Expedition {
 
 
   lazy val snackiest: List[Elf] = elves.sortBy(-_.kcals)
-
   def totalSnackiness(top: Int): Int = snackiest.take(top).map(_.kcals).sum
   def totalSnackiness: Int = snackiest.map(_.kcals).sum
 
