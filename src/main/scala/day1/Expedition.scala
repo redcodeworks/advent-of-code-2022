@@ -10,7 +10,6 @@ object Expedition {
 
   private val applicationConf: Config = ConfigFactory.load("application.conf")
 
-
   /*** Originally setup a random Id generator,
         but removing to asuage confusion from getting different numbers
         from repeat runs
