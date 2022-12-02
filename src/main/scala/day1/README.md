@@ -1,4 +1,4 @@
---- Day 1: Calorie Counting ---
+# --- Day 1: Calorie Counting ---
 
 Santa's reindeer typically eat regular reindeer food, but they need a lot of magical energy to deliver presents on Christmas. For that, their favorite snack is a special type of star fruit that only grows deep in the jungle. The Elves have brought you on their annual expedition to the grove where the fruit grows.
 
@@ -12,6 +12,7 @@ The Elves take turns writing down the number of Calories contained by the variou
 
 For example, suppose the Elves finish writing their items' Calories and end up with the following list:
 
+`
 1000
 2000
 3000
@@ -26,6 +27,7 @@ For example, suppose the Elves finish writing their items' Calories and end up w
 9000
 
 10000
+`
 This list represents the Calories of the food carried by five Elves:
 
 The first Elf is carrying food with 1000, 2000, and 3000 Calories, a total of 6000 Calories.
@@ -36,7 +38,3 @@ The fifth Elf is carrying one food item with 10000 Calories.
 In case the Elves get hungry and need extra snacks, they need to know which Elf to ask: they'd like to know how many Calories are being carried by the Elf carrying the most Calories. In the example above, this is 24000 (carried by the fourth Elf).
 
 Find the Elf carrying the most Calories. How many total Calories is that Elf carrying?
-
-To play, please identify yourself via one of these services:
-
-[GitHub] [Google] [Twitter] [Reddit] - [How Does Auth Work?]
