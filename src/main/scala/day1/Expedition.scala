@@ -35,13 +35,12 @@ object Expedition {
       case head :: tail if head.isBlank => recur(tail, Elf(nextId), currElf :: acc)
       case head :: tail => recur(tail, currElf.addSnack(head.toInt), acc)
 
-    recur(
-      util.Using(io.Source.fromResource("day1/input-data.txt")) { _.getLines.toList}.get,
-      Elf(0)
-    )
+    util.Using(io.Source.fromResource("day1/input-data.txt")){
+      stream => recur(stream.getLines.toList, Elf(0))
+    }.getOrElse(Nil)
 
-  lazy val snackiest: List[Elf] =
-    elves.sortBy(-_.kcals)
+
+  lazy val snackiest: List[Elf] = elves.sortBy(-_.kcals)
 
   def totalSnackiness(top: Int): Int = snackiest.take(top).map(_.kcals).sum
   def totalSnackiness: Int = snackiest.map(_.kcals).sum
