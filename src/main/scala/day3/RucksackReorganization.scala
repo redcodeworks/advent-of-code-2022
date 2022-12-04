@@ -7,10 +7,10 @@ package day3
     DAY 3: Rucksack Reorganization
     ========================================================
     Part 1 total score is:
-    ${SackHandler.priortyByItem.values.sum}
+    ${SackHandler.priortyByCompartmentCommonItems.values.sum}
 
     Part 2:
-    TBD
+    ${SackHandler.priorityByTeam.values.sum}
     ========================================================
     """
   )
