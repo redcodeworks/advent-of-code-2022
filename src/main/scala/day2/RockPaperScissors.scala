@@ -7,6 +7,7 @@ package day2
   val rps2 = GamePart2("day2/input-data.txt")
 
   println(s"""
+    DAY 2: Rock Paper Scissors
     ========================================================
     Part 1 total score is:
     ${rps1.calcScore}
