@@ -48,4 +48,4 @@ Following the Elf's instructions for the second column, what would your total sc
 ## Solution 
 
 <img width="424" alt="Screenshot 2022-12-04 at 10 40 11 AM" src="https://user-images.githubusercontent.com/53149657/205509231-a17f15d1-0090-4871-a47b-d8c3767a82bd.png">
-The third rucksack's compartments contain PmmdzqPrV and vPwwTWBwg; the only common item type is uppercase P.
+
