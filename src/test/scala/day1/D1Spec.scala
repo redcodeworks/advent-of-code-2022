@@ -7,7 +7,7 @@ import org.scalatest.matchers.*
 
 import scala.collection.mutable.Stack
 
-class Day1Spec extends AnyFlatSpec with should.Matchers {
+class D1Spec extends AnyFlatSpec with should.Matchers {
   "The Expedition object" should "have valid input data" in {
     Expedition.elves.size should be > 0
   }
