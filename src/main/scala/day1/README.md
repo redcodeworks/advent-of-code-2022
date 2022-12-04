@@ -1,7 +1,3 @@
-# Solution
-
-<img width="434" alt="Screenshot 2022-12-01 at 6 33 11 PM" src="https://user-images.githubusercontent.com/53149657/205203220-3bbcb5a0-ffc3-408f-ba03-c004e4489916.png">
-
 # --- Day 1: Calorie Counting ---
 
 ## Part 1
@@ -57,4 +53,7 @@ In the example above, the top three Elves are the fourth Elf (with 24000 Calorie
 
 Find the top three Elves carrying the most Calories. How many Calories are those Elves carrying in total?
 
+## Solution
+
+<img width="434" alt="Screenshot 2022-12-01 at 6 33 11 PM" src="https://user-images.githubusercontent.com/53149657/205203220-3bbcb5a0-ffc3-408f-ba03-c004e4489916.png">
 
