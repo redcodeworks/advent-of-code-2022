@@ -4,6 +4,7 @@ package day1
 @main def CalorieCounting(): Unit =
 
   println(s"""
+    DAY 1: Calorie Counting
     ========================================================
     The Snackiest Elf is:
     ${Expedition.snackiest.head}
