@@ -10,7 +10,7 @@ package day4
     ${AssignmentHandler.part1}
 
     Part 2:
-
+    ${AssignmentHandler.part2}
     ========================================================
     """
   )
