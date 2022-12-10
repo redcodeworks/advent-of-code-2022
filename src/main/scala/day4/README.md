@@ -63,3 +63,5 @@ In the above example, the first two pairs (2-4,6-8 and 2-3,4-5) don't overlap, w
 **In how many assignment pairs do the ranges overlap?**
 
 ## Solution
+
+<img width="441" alt="Screenshot 2022-12-10 at 10 09 02 AM" src="https://user-images.githubusercontent.com/53149657/206869323-8bc63f2e-555c-49bc-b853-ffa1ecafa2a0.png">
