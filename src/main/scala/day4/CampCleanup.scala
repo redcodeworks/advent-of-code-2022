@@ -9,7 +9,7 @@ package day4
     Part 1 total number of fully overlapping asssignments is:
     ${AssignmentHandler.part1}
 
-    Part 2:
+    Part 2 total number of intersecting asssignments is:
     ${AssignmentHandler.part2}
     ========================================================
     """
