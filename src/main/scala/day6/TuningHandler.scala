@@ -1,11 +1,14 @@
 package works.redcode
 package day6
 
+import scala.annotation.tailrec
+
 object TuningHandler:
   val encrypted = io.Source.fromResource("day6/input-data.txt").toList
 
 
-  def buildSet(encrypted: List[Char], setSize: Int) =
+  def buildSet(encrypted: List[Char], setSize: Int): (Int, String) =
+    @tailrec
     def recur(xs: List[Char], currentSet: List[Char], i: Int = setSize): (Int, String) = currentSet match
       case Nil => (i, "")
       case head :: tail if currentSet.toSet.size == setSize => (i, currentSet.mkString)
@@ -14,4 +17,4 @@ object TuningHandler:
     recur(encrypted.drop(setSize), encrypted.take(setSize).toList)
 
 
-  def decrypted(setSize: Int) = buildSet(encrypted, setSize)
+  def decrypted(setSize: Int): (Int, String) = buildSet(encrypted, setSize)
