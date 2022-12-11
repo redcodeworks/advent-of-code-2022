@@ -129,3 +129,5 @@ Before the rearrangement process finishes, update your simulation so that the El
 
 
 ## Solution
+
+<img width="425" alt="Screenshot 2022-12-10 at 2 09 51 PM" src="https://user-images.githubusercontent.com/53149657/206877173-460ba05d-0e43-492d-b91c-0290a19e2642.png">
