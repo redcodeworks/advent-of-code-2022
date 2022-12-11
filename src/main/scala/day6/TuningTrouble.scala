@@ -4,7 +4,7 @@ package day6
 @main def TuningTrouble(): Unit =
 
   println(s"""
-    DAY 5: Camp Supply Stacks
+    DAY 6: Tuning Trouble
     ========================================================
     Part 1:
     ${TuningHandler.decrypted(4)}
